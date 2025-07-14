@@ -7,6 +7,7 @@ import Register from './Componets/Register';
 import Profile from './Pages/Profile';
 import Error from './Componets/Eror';
 import ContectUs from './Pages/ContectUs';
+import Fashion from './Pages/Fashion';
 
 
 
@@ -20,7 +21,7 @@ const App = () => {
         <Route path='/register' element={<Register />} />
         <Route path='/profile' element={<Profile/>} />
         <Route path='/contactus' element={<ContectUs />} />
-        <Route path='*' element={<Error />} />
+        <Route path='/fashion' element={<Fashion />} />
 
       </Routes>
     </>
